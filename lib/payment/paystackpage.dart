@@ -12,7 +12,7 @@ class PaystackPage extends StatelessWidget {
     this.totalAmount,
   });
 
-  final String paystackUrl = 'https://paystack.shop/pay/6ny73l808p';
+  final String paystackUrl = 'add your api';
 
   Future<void> _launchPaystack(BuildContext context) async {
     final Uri url = Uri.parse(paystackUrl);
